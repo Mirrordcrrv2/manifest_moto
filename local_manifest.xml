@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+ <!-- Remote -->
+  <remote name="rock" fetch="https://github.com/MT6789-Rock"/>
+  <remote name="shakib" fetch="https://github.com/Shakib-BD"/>
+  <remote name="cipherv" fetch="https://github.com/CipherOS"/>
+  
+ <!-- Device Resources -->
+  <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="CipherOS-V"/>
+  <project path="vendor/xiaomi/rock" name="vendor_xiaomi_rock" remote="shakib" revision="lineage-21"/>
+  <project path="kernel/xiaomi/rock" name="kernel_xiaomi_rock" remote="shakib" revision="lineage-21"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="cipherv" revision="fourteen"/>
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cipherv" revision="thirteen"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="cipherv" revision="fourteen"/>
+
+</manifest>
