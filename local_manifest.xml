@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+ <!-- Remote -->
+  <remote name="rock" fetch="https://github.com/MT6789-Rock"/>
+  <remote name="shakib" fetch="https://github.com/Shakib-BD"/>
+  
+ <!-- Device Resources -->
+  <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="VoltageOS-14"/>
+  <project path="vendor/xiaomi/rock" name="vendor_xiaomi_rock" remote="shakib" revision="lineage-21"/>
+  <project path="kernel/xiaomi/rock" name="kernel_xiaomi_rock" remote="shakib" revision="lineage-21"/>
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="rock" revision="14.0"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="rock" revision="14.0"/>
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rock" revision="14.0"/>
+  
+</manifest>
