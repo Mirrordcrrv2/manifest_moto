@@ -8,9 +8,9 @@
   <remote name="other" fetch="https://github.com/LineageOS"/>
 
  <!-- Device Resources -->
-  <project path="device/motorola/cancunf" name="device_motorola_cancunf" remote="pain" revision="fourteen"/>
-  <project path="vendor/motorola/cancunf" name="vendor_motorola_cancunf" remote="camera" revision="fourteen"/>
-  <project path="device/motorola/cancunf-kernel" name="device_motorola_cancunf-kernel" remote="camera" revision="fourteen"/>
+  <project path="device/motorola/cancunf" name="device_motorola_cancunf" remote="pain" revision="fifteen"/>
+  <project path="vendor/motorola/cancunf" name="vendor_motorola_cancunf" remote="camera" revision="fifteen"/>
+  <project path="device/motorola/cancunf-kernel" name="device_motorola_cancunf-kernel" remote="camera" revision="fifteen"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="other" revision="lineage-21"/>
   <project path="vendor/motorola/cancunf-motcamera" name="vendor_motorola_cancunf-motcamera" remote="camera" revision="master"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="other" revision="lineage-21"/>
